@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilo do Prado Nabarretti | Fisioterapia Desportiva e Alívio da Dor</title>
+    
+    <!-- Meta tags de SEO e Compartilhamento -->
+    <meta name="description" content="Fisioterapia Desportiva e Terapia Manual em Mogi das Cruzes. Atendimento domiciliar individualizado para atletas e alívio de dores crônicas. CREFITO 449469-F.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- BARRA SUPERIOR / CREFITO -->
+    <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 text-center border-b border-slate-800">
+        <span>Fisioterapeuta Registrado • <strong>CREFITO: 449469-F</strong></span>
+    </div>
+
+    <!-- CABEÇALHO / NAVBAR -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur shadow-sm border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div>
+                <a href="#" class="text-lg font-bold tracking-tight text-slate-900 block leading-tight">Danilo Nabarretti</a>
+                <span class="text-xs font-medium text-brand-600 block">Fisioterapia Desportiva & Recovery</span>
+            </div>
+
+            <div class="flex items-center gap-3 sm:gap-4">
+                <!-- Instagram Oficial -->
+                <a href="https://www.instagram.com/fisio.danilonabarretti/" target="_blank" rel="noopener noreferrer" 
+                   class="p-2 text-slate-600 hover:text-pink-600 hover:bg-slate-100 rounded-full transition-colors flex items-center gap-1.5 text-xs font-semibold" 
+                   title="Instagram @fisio.danilonabarretti">
+                    <i data-lucide="instagram" class="w-5 h-5 text-pink-600"></i>
+                    <span class="hidden md:inline">@fisio.danilonabarretti</span>
+                </a>
+
+                <!-- Botão Rolar para Agendamento -->
+                <a href="#agendamento" 
+                   class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white text-xs sm:text-sm font-semibold px-4 py-2 rounded-lg transition-all shadow-sm">
+                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                    <span>Agendar Consulta</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEÇÃO PRINCIPAL (HERO) COM A FOTO OFICIAL -->
+    <section class="py-16 md:py-24 bg-gradient-to-b from-white to-slate-50 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            
+            <div class="space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-brand-50 border border-brand-100 rounded-full text-brand-700 text-xs font-semibold">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+                    Atendimento Domiciliar em Mogi das Cruzes (Raio de 10 km)
+                </div>
+
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                    Elimine as dores e volte ao seu esporte <span class="text-brand-600">sem sair de casa.</span>
+                </h1>
+
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    Reabilitação desportiva individualizada e alívio imediato de dores articulares e musculares. Levo toda a estrutura necessária até a sua residência, condomínio ou box de treino.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                    <a href="#agendamento" 
+                       class="inline-flex justify-center items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        <i data-lucide="calendar" class="w-5 h-5"></i>
+                        <span>Escolher Horário na Agenda</span>
+                    </a>
+                    
+                    <a href="https://wa.me/5511941160901?text=Ol%C3%A1%2C%20Danilo!%20Vi%20seu%20site%20e%20gostaria%20de%20tirar%20umas%20d%C3%BAvidas." 
+                       target="_blank" rel="noopener noreferrer"
+                       class="inline-flex justify-center items-center gap-2 bg-white hover:bg-slate-100 border border-slate-300 text-slate-700 font-semibold px-6 py-3.5 rounded-xl transition-all">
+                        <i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i>
+                        <span>WhatsApp Direto</span>
+                    </a>
+                </div>
+
+                <div class="pt-6 grid grid-cols-3 gap-4 border-t border-slate-200 text-slate-600 text-xs sm:text-sm">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                        <span>Raio de 10 km</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                        <span>Maca própria</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                        <span>Horários flexíveis</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Visual com a Foto Oficial do Danilo -->
+            <div class="relative flex justify-center items-center">
+                <div class="w-full max-w-md bg-gradient-to-b from-brand-50/70 to-white rounded-3xl p-8 sm:p-10 shadow-2xl border border-slate-200/80 text-center relative group">
+                    <div class="relative w-52 h-52 sm:w-60 sm:h-60 mx-auto rounded-full overflow-hidden border-4 border-brand-500 shadow-xl mb-6 bg-slate-100 ring-8 ring-brand-50 transition-transform group-hover:scale-105 duration-300">
+                        <img src="danilo.png" 
+                             alt="Danilo do Prado Nabarretti - Fisioterapeuta" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    
+                    <span class="inline-block px-3 py-1 bg-brand-100 text-brand-800 text-xs font-bold rounded-full mb-2 uppercase tracking-wide">
+                        Atendimento Domiciliar
+                    </span>
+                    <h3 class="text-2xl font-extrabold text-slate-900">Danilo Nabarretti</h3>
+                    <p class="text-xs text-brand-700 font-semibold mt-1">Fisioterapeuta • CREFITO 449469-F</p>
+                    
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-center gap-2 text-xs text-slate-500">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-brand-600"></i>
+                        <span>Mogi das Cruzes e Região</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ESPECIALIDADES -->
+    <section id="especialidades" class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2">Tratamentos</h2>
+                <p class="text-3xl font-extrabold text-slate-900">Como posso te ajudar?</p>
+                <p class="text-slate-600 mt-3">Abordagem ativa, baseada nas mais recentes evidências científicas para uma recuperação segura e duradoura.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 hover:border-brand-500 transition-all hover:shadow-md group">
+                    <div class="w-12 h-12 bg-brand-100 text-brand-700 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="activity" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Fisioterapia Desportiva</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Reabilitação e prevenção de lesões para corredores, crossfitters e atletas de musculação. Foco em biomecânica e retorno seguro aos treinos.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Entorses e lesões articulares</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Tendinopatias e sobrecargas</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Fortalecimento preventivo</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 hover:border-brand-500 transition-all hover:shadow-md group">
+                    <div class="w-12 h-12 bg-brand-100 text-brand-700 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="sparkles" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Terapia Manual & Dor</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Técnicas manuais para alívio rápido de dores agudas e crônicas decorrentes de rotina pesada de trabalho ou tensões posturais.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Dores na coluna e lombalgias</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Tensão cervical e ombros</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Ganho imediato de mobilidade</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 hover:border-brand-500 transition-all hover:shadow-md group">
+                    <div class="w-12 h-12 bg-brand-100 text-brand-700 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="zap" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Recovery Muscular</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Liberação miofascial manual e instrumental para acelerar a regeneração muscular pós-prova, pós-competição ou treinos exaustivos.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Liberação miofascial</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Redução expressiva da fadiga</li>
+                        <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i> Otimização da performance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA O ATENDIMENTO DOMICILIAR -->
+    <section class="py-16 md:py-20 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-xs font-bold text-brand-500 tracking-wider uppercase mb-2 block">Home Care Prático</span>
+                <h2 class="text-3xl font-extrabold">Como funciona o atendimento na sua casa?</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+                <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60">
+                    <div class="text-2xl font-black text-brand-500 mb-3">01</div>
+                    <h3 class="text-lg font-bold mb-2">Agendamento Online</h3>
+                    <p class="text-sm text-slate-300">Escolha o dia e horário que melhor se encaixam no seu dia a dia direto pelo calendário abaixo.</p>
+                </div>
+
+                <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60">
+                    <div class="text-2xl font-black text-brand-500 mb-3">02</div>
+                    <h3 class="text-lg font-bold mb-2">Estrutura Completa</h3>
+                    <p class="text-sm text-slate-300">Levo maca portátil, therabands e materiais de liberação. Você só precisa de um espaço livre pequeno.</p>
+                </div>
+
+                <div class="bg-slate-800/60 p-6 rounded-2xl border border-slate-700/60">
+                    <div class="text-2xl font-black text-brand-500 mb-3">03</div>
+                    <h3 class="text-lg font-bold mb-2">Avaliação & Ação</h3>
+                    <p class="text-sm text-slate-300">Avaliação física detalhada já no primeiro encontro com aplicação imediata de condutas de alívio da dor.</p>
+                </div>
+            </div>
+
+            <!-- Área de Cobertura -->
+            <div class="mt-12 p-6 bg-slate-800/40 rounded-2xl border border-slate-700 text-center max-w-3xl mx-auto">
+                <p class="text-sm text-slate-300">
+                    📍 <strong>Raio de Atendimento:</strong> Cobertura de até <strong>10 km a partir do Centro de Mogi das Cruzes</strong>, cobrindo bairros como Centro, Vila Oliveira, Mogilar, Alto do Ipiranga, Braz Cubas, Socorro, César de Souza e condomínios da região.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE AGENDAMENTO (CALENDÁRIO INTEGRADO + WHATSAPP) -->
+    <section id="agendamento" class="py-16 md:py-24 bg-slate-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2 block">Agenda em Tempo Real</span>
+                <h2 class="text-3xl font-extrabold text-slate-900">Agende sua Consulta</h2>
+                <p class="text-slate-600 text-sm mt-2">Escolha uma data e horário livres abaixo. A confirmação é enviada automaticamente para o seu e-mail e celular.</p>
+            </div>
+
+            <!-- Card Principal de Agendamento -->
+            <div class="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
+                <div class="p-6 bg-brand-600 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <div class="p-3 bg-white/10 rounded-xl">
+                            <i data-lucide="clock" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-base">Avaliação Fisioterapêutica Individual</p>
+                            <p class="text-xs text-brand-100">Atendimento presencial em domicílio (Mogi das Cruzes)</p>
+                        </div>
+                    </div>
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-semibold">Horários sincronizados</span>
+                </div>
+
+                <!-- ÁREA DO CALENDÁRIO CAL.COM -->
+                <div class="w-full bg-white p-2 sm:p-6" style="min-height: 550px;">
+                    <!-- Cal inline embed code begins -->
+                    <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
+                    <script type="text/javascript">
+                      (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+                      
+                      Cal("init", "30min", {origin:"https://cal.com"});
+
+                      Cal.ns["30min"]("inline", {
+                        elementOrSelector:"#my-cal-inline",
+                        config: {"layout":"month_view"},
+                        calLink: "danilo-nabarretti-rgo5pl/30min",
+                      });
+
+                      Cal.ns["30min"]("ui", {"styles":{"branding":{"brandColor":"#0d9488"}},"hideEventTypeDetails":false,"layout":"month_view"});
+                    </script>
+                    <!-- Cal inline embed code ends -->
+                </div>
+
+                <!-- Rodapé do Card com Alternativa WhatsApp -->
+                <div class="bg-slate-50 border-t border-slate-100 p-4 text-center text-xs text-slate-500">
+                    Não encontrou um bom horário? <a href="https://wa.me/5511941160901" target="_blank" class="text-emerald-600 font-bold hover:underline">Chame no WhatsApp (11) 94116-0901</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE O PROFISSIONAL -->
+    <section class="py-16 md:py-24 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+            <div class="w-48 h-48 md:w-56 md:h-56 shrink-0 rounded-full overflow-hidden border-4 border-brand-500 shadow-xl bg-slate-100">
+                <img src="danilo.png" 
+                     alt="Danilo do Prado Nabarretti" 
+                     class="w-full h-full object-cover">
+            </div>
+
+            <div class="space-y-4 text-center md:text-left">
+                <div class="inline-block px-3 py-1 bg-brand-50 text-brand-700 text-xs font-semibold rounded-full">
+                    Fisioterapeuta • CREFITO 449469-F
+                </div>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">Danilo do Prado Nabarretti</h2>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                    Graduado em Fisioterapia e atuante em centro de recovery desportivo, meu foco de trabalho é proporcionar um cuidado humanizado e técnico. Acredito na reabilitação ativa: não apenas mascarar o desconforto com repouso passivo, mas capacitar o seu corpo para se movimentar sem dor e com máxima segurança biomecânica.
+                </p>
+                
+                <div class="pt-2 flex flex-wrap justify-center md:justify-start gap-4 items-center">
+                    <a href="https://www.instagram.com/fisio.danilonabarretti/" target="_blank" rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold rounded-lg hover:opacity-95 transition-all shadow-sm">
+                        <i data-lucide="instagram" class="w-4 h-4"></i>
+                        <span>@fisio.danilonabarretti</span>
+                    </a>
+
+                    <span class="text-xs text-slate-400">• Dicas de mobilidade, prevenção e rotina</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERGUNTAS FREQUENTES (FAQ) -->
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-2xl font-extrabold text-slate-900 text-center mb-8">Dúvidas Frequentes</h2>
+
+            <div class="space-y-4">
+                <div class="bg-white p-5 rounded-xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 text-sm">O que eu preciso ter em casa para a consulta?</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm mt-2">Apenas um pequeno espaço livre na sala, quarto ou varanda. Eu levo a maca portátil profissional, toalhas descartáveis e todos os instrumentos necessários.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 text-sm">Como funciona o pagamento?</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm mt-2">O pagamento pode ser feito via Pix ou cartão ao término de cada atendimento.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 text-sm">Você atende convênio médico?</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm mt-2">Os atendimentos são particulares, mas emito recibo completo com CREFITO e dados detalhados para que você possa pedir o reembolso no seu plano de saúde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-slate-900 text-slate-400 py-12 text-xs">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+            <div>
+                <p class="font-bold text-white text-base">Danilo do Prado Nabarretti</p>
+                <p class="mt-1">Fisioterapia Desportiva & Recovery Domiciliar</p>
+                <p class="text-slate-500 mt-1">CREFITO: 449469-F • Mogi das Cruzes - SP</p>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="https://www.instagram.com/fisio.danilonabarretti/" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition-colors flex items-center gap-1">
+                    <i data-lucide="instagram" class="w-4 h-4"></i>
+                    <span>@fisio.danilonabarretti</span>
+                </a>
+                <span>•</span>
+                <a href="https://wa.me/5511941160901" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors">
+                    (11) 94116-0901
+                </a>
+            </div>
+
+            <div class="text-slate-600">
+                <p>© 2026 Danilo Nabarretti. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a href="https://wa.me/5511941160901?text=Ol%C3%A1%2C%20Danilo!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20atendimento." 
+       target="_blank" rel="noopener noreferrer"
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all flex items-center justify-center group"
+       title="Falar no WhatsApp">
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+        <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-300 ease-in-out px-0 group-hover:px-2 text-sm font-semibold">
+            Falar no WhatsApp
+        </span>
+    </a>
+
+    <!-- Ativação dos Ícones Lucide -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
